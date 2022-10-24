@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.7.0
 ### Added
-- Improve status display text in new bitbucket pull request screen, from [@bradrydzewski](https://github.com/bradrydzewski). See [#27](https://github.com/drone/go-scm/issues/27).
+- Improve status display text in new bitbucket pull request screen, from [@bradrydzewski](https://github.com/bradrydzewski). See [#27](https://github.com/mailbyms/go-scm/issues/27).
 - Implement timestamp value for GitHub push webhooks, from [@bradrydzewski](https://github.com/bradrydzewski).
 - Implement deep link to branch.
 - Implement git compare function to compare two separate commits, from [@chhsia0](https://github.com/chhsia0).
@@ -16,11 +16,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Fix issue with GitHub enterprise deep link including API prefix, from [@bradrydzewski](https://github.com/bradrydzewski).
 - Fix issue with GitHub deploy hooks for commits having an invalid reference, from [@bradrydzewski](https://github.com/bradrydzewski).
-- Support for Skipping SSL verification for GitLab webhooks. See [#40](https://github.com/drone/go-scm/pull/40).
-- Support for Skipping SSL verification for GitHub webhooks. See [#44](https://github.com/drone/go-scm/pull/40).
-- Fix issue with handling slashes in Bitbucket branch names. See [#7](https://github.com/drone/go-scm/pull/47).
-- Fix incorrect Gitea tag link. See [#52](https://github.com/drone/go-scm/pull/52).
-- Encode ref when making Gitea API calls. See [#61](https://github.com/drone/go-scm/pull/61).
+- Support for Skipping SSL verification for GitLab webhooks. See [#40](https://github.com/mailbyms/go-scm/pull/40).
+- Support for Skipping SSL verification for GitHub webhooks. See [#44](https://github.com/mailbyms/go-scm/pull/40).
+- Fix issue with handling slashes in Bitbucket branch names. See [#7](https://github.com/mailbyms/go-scm/pull/47).
+- Fix incorrect Gitea tag link. See [#52](https://github.com/mailbyms/go-scm/pull/52).
+- Encode ref when making Gitea API calls. See [#61](https://github.com/mailbyms/go-scm/pull/61).
 
 ## [1.6.0]
 ### Added
@@ -36,7 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.5.0]
 ### Added
 
-- Fix missing sha for Gitea tag hooks, from [@techknowlogick](https://github.com/techknowlogick). See [#22](https://github.com/drone/go-scm/pull/22).
+- Fix missing sha for Gitea tag hooks, from [@techknowlogick](https://github.com/techknowlogick). See [#22](https://github.com/mailbyms/go-scm/pull/22).
 - Support for Gitea webhook signature verification, from [@techknowlogick](https://github.com/techknowlogick).
 
 ## [1.4.0]

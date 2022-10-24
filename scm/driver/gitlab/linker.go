@@ -8,7 +8,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/drone/go-scm/scm"
+	"github.com/mailbyms/go-scm/scm"
 )
 
 type linker struct {

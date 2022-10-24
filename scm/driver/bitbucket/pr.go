@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/drone/go-scm/scm"
+	"github.com/mailbyms/go-scm/scm"
 )
 
 type pullService struct {

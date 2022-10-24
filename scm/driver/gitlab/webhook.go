@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/drone/go-scm/scm"
+	"github.com/mailbyms/go-scm/scm"
 )
 
 type webhookService struct {
