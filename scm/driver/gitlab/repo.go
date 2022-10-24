@@ -175,6 +175,8 @@ func convertRepositoryList(from []*repository) []*scm.Repository {
 // helper function to convert from the gogs repository structure
 // to the common repository structure.
 func convertRepository(from *repository) *scm.Repository {
+	fmt.Printf("***** from: %v\n", from.Namespace.FullPath)
+
 	to := &scm.Repository{
 		ID:        strconv.Itoa(from.ID),
 		Namespace: strings.Replace(from.Namespace.FullPath, "/", "--", 1),

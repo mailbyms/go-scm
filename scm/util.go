@@ -16,6 +16,8 @@ var re = regexp.MustCompile("\\d+")
 
 // Split splits the full repository name into segments.
 func Split(s string) (owner, name string) {
+	fmt.Printf("***** s: %v\n", s)
+
 	parts := strings.Split(s, "/")
 	name = parts[len(parts)-1]
 	if len(parts) > 1 {
