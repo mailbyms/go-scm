@@ -5,6 +5,7 @@
 package scm
 
 import (
+	"fmt"
 	"regexp"
 	"strconv"
 	"strings"
